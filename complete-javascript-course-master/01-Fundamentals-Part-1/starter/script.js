@@ -115,7 +115,7 @@ console.log(ageJonas, ageSarah, avegeAge);
 
 //Excersces until Section 4
 
-
+/*
 let myCountry = "MEX";
 let otherCountry = "USA";
 
@@ -155,3 +155,56 @@ function compareBMI() {
     console.log(`John's BMI (${BMIJohn.toFixed(2)}) is higher than Mark's (${BMIMark.toFixed(2)})!`);
     return;
 }
+*/
+//Finish Excersces until Section 4
+
+//Section 5 - Taking Decisions: if / else Statements
+/*
+const age = 17;
+const isOldEnough = age >= 18; //if the person is 18 or older is going to return true
+let name = "Alex";
+let decimalValue = 3.14;
+
+if (isOldEnough) {
+    console.log(name + " is old enought to drive🚗");
+}
+if (!isOldEnough) {
+    console.log(name + " is not old enought to drive 🚗 wait " + (18 - age) + " Year/s to drive.");
+    console.log(`This is another way to print variables ${decimalValue}`);
+
+}
+*/
+
+
+
+//Seccion true and false
+/*
+const HasAGoodVision = true;
+const IsAGoodDriver = false;
+
+if (HasAGoodVision && IsAGoodDriver) {
+    console.log("Suppossed to be false (AND)"); //AND Door
+}
+if (HasAGoodVision || IsAGoodDriver) {
+    console.log("Supposed to be True (OR)");
+}
+if (!IsAGoodDriver) {
+    console.log("Supposed to be true (NOT)");
+
+}
+
+
+const isTired = true;
+const shouldDrive = IsAGoodDriver && HasAGoodVision && !isTired;
+
+if (shouldDrive) {
+    console.log("You can drive");
+}
+*/
+
+
+//IF on one line
+
+const age = 17;
+age >= 18 ? console.log("You have 18") : console.log("You don't have 18");
+//IF on on line (only works by one line of coding)
