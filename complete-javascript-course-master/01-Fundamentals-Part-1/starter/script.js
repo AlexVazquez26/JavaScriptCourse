@@ -307,3 +307,7 @@ const age = 17;
 age >= 18 ? console.log("You have 18") : console.log("You don't have 18");
 */
 //IF on on line (only works by one line of coding)
+
+
+//Agregando una variable nueva
+let x = 10;
