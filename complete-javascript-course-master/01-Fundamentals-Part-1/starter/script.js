@@ -176,6 +176,104 @@ if (!isOldEnough) {
 */
 
 
+//Ejercicio de notas escolares
+/*
+let math = "86";
+let biology = "97";
+let chemistry = "89";
+
+function TipoDeDato(){
+console.log("El tipo de Variable es math: " + typeof (math));
+console.log("El tipo de Variable es biology: " + typeof (biology));
+console.log("El tipo de Variable es chemistry: " + typeof (chemistry));
+}
+TipoDeDato();
+
+math = Number(math);
+biology = Number(biology);
+chemistry = Number(chemistry)
+
+TipoDeDato();
+
+let average = (math + biology + chemistry) / 3 //If Number was not on the code this would cause an error
+
+let estado;
+switch (true) {
+  case average >= 90:
+    estado = "Excelente";
+    break;
+  case average >= 80:
+    estado = "Bueno";
+    break;
+  case average >= 70:
+    estado = "Promedio";
+    break;
+  case average >= 60:
+    estado = "Pasaste";
+    break;
+  default:
+    estado = "Reprobaste";
+}
+console.log("El promedio del alumno: " + average.toFixed(2) + " | Status: " + estado);
+//Serie de ejercicios de repaso usando Chatgpt
+
+*/
+
+//comando con prompt
+/*
+let name = prompt("Como te llamas?")
+console.log("El se llama: " + name);
+*/
+//
+
+//To convert to String
+//console.log(String(1892)); //This would make 1892 to a string
+
+
+// 5 Falsy Values and truly values -------------
+
+// console.log(Boolean(0)); // false
+// console.log(Boolean(undefined)); //False
+// console.log(Boolean("Jonas")); //True bc it has not an empty string
+// console.log(Boolean({}));
+/*
+const money = 10;  //0 is converted to false bc it is 0
+
+if (money) {
+    console.log("Don't spent it all");
+} else {
+    console.log("You should get a job");
+
+}
+
+let height;
+
+if (height) {
+    console.log("Yay Height is defined");
+}else{
+    console.log("Height is UNDEFINED");
+}
+*/
+
+/*
+const age = 18; // TO TEST CHANGE THIS VALUE TO STRING
+
+if (age === 18) console.log("You are an adult"); //on line if
+
+//Making == is when youmake coercion types
+//Ex "18" == 18 RETURNS TRUE bc JS turn 18 into a integer
+// EX "18" === 18 RETURNS FALSE bc TRIPLE "=" IS RESTRICTIVE CONDITION
+
+if (age == 18) console.log("You are an adult (loose)");
+//Good practice use always === TRIPLE
+
+const favorite = Number(prompt("What is your favorite number"));
+//With Number we change the string that returns the prompt to a number
+console.log("Your favorite is: " + favorite);
+console.log("The value now is:" + typeof favorite);
+
+if (favorite === 23) console.log("Cool you like 23");
+*/
 
 //Seccion true and false
 /*
@@ -204,7 +302,8 @@ if (shouldDrive) {
 
 
 //IF on one line
-
+/*
 const age = 17;
 age >= 18 ? console.log("You have 18") : console.log("You don't have 18");
+*/
 //IF on on line (only works by one line of coding)
