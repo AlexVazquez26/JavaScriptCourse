@@ -1,0 +1,53 @@
+/* from starting parameters */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(179, 241, 179);
+  font-family: Century Gothic;
+  font-size: 20px;
+  padding: 50px;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+input,
+button {
+  font-family: Century Gothic;
+  padding: 10px;
+  font-size: 16px;
+}
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+p {
+  margin-bottom: 20px;
+}
+/* for classes */
+.first {
+  color: red;
+}
+/* for id */
+#your-name {
+  background-color: black;
+  border: 5px solid #fcf8f8;
+  color: white;
+  width: 400px;
+  padding: 20px;
+  margin-top: 30px;
+}
+a {
+  background-color: rgb(24, 24, 22);
+  color: white;
+}
+#course-image {
+  width: 300px;
+  /* height: 300px; */
+}
+#your-name h2 {
+  color: rgb(179, 241, 179);
+}
